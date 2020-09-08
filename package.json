@@ -1,0 +1,39 @@
+{
+  "name": "react_usinghooks",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://kumar-sanjeet1.github.io/practice-proj3",
+  "dependencies": {
+    "i18next": "19.5.0",
+    "i18next-browser-languagedetector": "5.0.0",
+    "i18next-http-backend": "1.0.15",
+    "react": "16.13.1",
+    "react-datepicker": "^3.1.3",
+    "react-dom": "16.13.1",
+    "react-i18next": "11.3.4",
+    "react-scripts": "3.4.1",
+    "gh-pages": "^3.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build --env=development",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "clean": "gh-pages-clean"
+  },
+  "browserslist": {
+    "development": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 edge versions"
+    ],
+    "production": [
+      ">1%",
+      "last 4 versions",
+      "Firefox ESR",
+      "not ie < 11"
+    ]
+  }
+}
