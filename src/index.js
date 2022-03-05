@@ -5,5 +5,6 @@ import App from './App';
 
 // import i18n (needs to be bundled ;))
 import './i18n';
+console.log("hellow")
 
 ReactDOM.render(<App />, document.getElementById('root'));
